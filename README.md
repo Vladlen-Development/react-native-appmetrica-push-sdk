@@ -6,8 +6,8 @@
 
 ## Getting started
 
-`$ yarn add react-native-appmetrica`
-`$ yarn add react-native-appmetrica-push-sdk`
+`$ yarn add https://gitlab.com/getgain-public/libs/react-native-appmetrica.git`
+`$ yarn add https://gitlab.com/getgain-public/libs/react-native-appmetrica-push-sdk.git`
 
 ## Usage
 
