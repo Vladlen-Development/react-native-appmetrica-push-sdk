@@ -1,15 +1,15 @@
-
 import { NativeModules, Platform } from 'react-native';
 
 const { RNAppmetricaPushSdk } = NativeModules;
 
-export default {
+class YandexMetricaPush {
     init(token = '') {
-
-        if(Platform.OS === 'android') {
+        if (Platform.OS === 'android') {
             RNAppmetricaPushSdk.init();
         } else {
             RNAppmetricaPushSdk.initPush(token);
         }
-    },
+    }
 }
+
+export default YandexMetricaPush;
