@@ -12,4 +12,5 @@ class YandexMetricaPush {
     }
 }
 
-export default YandexMetricaPush;
+const yandexMetricaPush = new YandexMetricaPush()
+export default yandexMetricaPush;
